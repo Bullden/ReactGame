@@ -37,7 +37,6 @@ export default class Block extends React.Component {
                     flipOnClick={true}
                     ref={(r) => this.flippy = r}
                     flipDirection="horizontal"
-                    disabled
                     style={{ width: '150px', height: '150px', margin: '2px'}}>
                         <FrontSide style={{backgroundColor: this.state.background}} />
                         <BackSide style={{backgroundColor: this.state.background}} />
